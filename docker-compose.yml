@@ -3,7 +3,7 @@ version: "3.9"
 services:
   clonebot:
     image: ghcr.io/missemily2022/clonebot:new
-    container_name: clonebot
+    container_name: clonebot1
     environment:
       - telegram_token=${telegram_token}
       - user_ids=${user_ids}
